@@ -29,7 +29,7 @@ def find_coord_of_point(radius, angle_degrees):
 def main():
     # Set up the turtle
     turtle.speed(0)
-    '''
+
     points = 0.0
     while (points < 1) or (points > 3000):
         points = float(input("How many points do you want in your circle? (3 - 3000)"))
@@ -41,7 +41,7 @@ def main():
     points = 100
     times_table = 4
     radius = 400
-
+    '''
     angle = 360 / points
     current_angle = 0
     for i in range(int(points)):
